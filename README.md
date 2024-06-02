@@ -1,5 +1,5 @@
 # Labconco_data_pro
-The python file is a simple script to process the data from the Labconco Stoppering Tray Dryer. Below are the instructions for setting up, recording and retrieving the data from the instrument
+The python file is a simple script to process the data from the Labconco Stoppering Tray Dryer. Simply enter the location of the data, and the script will process the information and plot the graph. Also included in this document are the instructions for setting up, recording and retrieving the data from the instrument, please see below.
 
 Section I, Freeze drying the samples and stoppering the vails
 Purpose:
@@ -70,14 +70,14 @@ To set up the COM properties:
   Click OK
 
   Click on ‘COM properties’, and set the communication parameters
-	  1. Data Rate 2400 Baud 
-    2. 8 Bit word length 
-    3. 1 Start bit, 1 Stop bit 
-    4. no flow control
-		Click OK
+	1) Data Rate 2400 Baud 
+    	2) 8 Bit word length 
+    	3) 1 Start bit, 1 Stop bit 
+    	4) no flow control
+	Click OK
 
- 	To capture the data and save it to the hard drive
-		Click on ‘Transfer’, and then ‘Capture Text’
-			A ‘Capture Tex’ dialog box will appear (note transmission of data is every 10 sec)
-    To save the data select the folder and name of the file
-    Click ‘Start’ and the word ‘Capture’ will appear at the bottom of the HyperTerminal window that capture is enabled
+ To capture the data and save it to the hard drive
+	Click on ‘Transfer’, and then ‘Capture Text’
+	A ‘Capture Tex’ dialog box will appear (note transmission of data is every 10 sec)
+To save the data select the folder and name of the file
+Click ‘Start’ and the word ‘Capture’ will appear at the bottom of the HyperTerminal window that capture is enabled
